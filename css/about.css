@@ -1,0 +1,23 @@
+/* PAGE TITLE  */
+
+.content-section {
+	position: relative;
+	text-align: right;
+	padding: 0 6vmax;
+}
+
+.content-text {
+	position: absolute;
+	bottom: 6vmax;
+	left: -5vw;
+	padding-left: 6vmax;
+	z-index: 1000;
+	line-height: 0.8;
+  color: var(--title-color);
+	font-size: var(--title-size);
+	font-family: var(--font-medium);
+	letter-spacing: 0.08em;
+	margin: 0;
+	line-height: 1;
+  width: 46vw;
+}
